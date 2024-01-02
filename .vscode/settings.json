@@ -1,0 +1,24 @@
+{
+  // importSorter
+  "importSorter.generalConfiguration.sortOnBeforeSave": true,
+  "importSorter.importStringConfiguration.quoteMark": "double",
+  "importSorter.sortConfiguration.removeUnusedImports": false,
+  "importSorter.sortConfiguration.removeUnusedDefaultImports": true,
+  "importSorter.importStringConfiguration.maximumNumberOfImportExpressionsPerLine.type": "words",
+  "importSorter.importStringConfiguration.tabSize": 2,
+  "importSorter.sortConfiguration.customOrderingRules.rules": [
+    { "orderLevel": 1, "regex": "^(next)(.*?)" },
+    { "orderLevel": 100, "regex": "^(react|react-dom)$" },
+    { "orderLevel": 200, "regex": "^(styled-components)(.*?)" },
+    { "orderLevel": 300, "regex": "^(_/types)(.*?)" },
+    { "orderLevel": 310, "regex": "^(_/stores)(.*?)" },
+    { "orderLevel": 320, "regex": "^(_/hooks)(.*?)" },
+    { "orderLevel": 330, "regex": "^(_/images)(.*?)" },
+    { "orderLevel": 340, "regex": "^(_/styles)(.*?)" },
+    { "orderLevel": 350, "regex": "^(_/components)(.*?)" },
+    { "orderLevel": 800, "regex": "^_/(.*?)" },
+    { "orderLevel": 201, "regex": "^(.*?)" }
+  ],
+  // typescript
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true
+}
