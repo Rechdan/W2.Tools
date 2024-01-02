@@ -4,6 +4,8 @@ import { Layout } from "antd";
 
 import { PageProps } from "_/types";
 
+import Navigation from "_/components/app/navigation";
+
 const Container = styled(Layout)`
   height: 100lvh;
   width: 100lvw;
@@ -11,7 +13,9 @@ const Container = styled(Layout)`
 
 const App = (props: PageProps) => (
   <Container>
-    <Layout.Sider></Layout.Sider>
+    <Layout.Sider>
+      <Navigation {...props} />
+    </Layout.Sider>
 
     <Layout.Content>
       <h1>okk</h1>
