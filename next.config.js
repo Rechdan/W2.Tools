@@ -5,7 +5,6 @@ const nextConfig = {
   compiler: { styledComponents: true },
   output: "export",
   reactStrictMode: true,
-  transpilePackages: ["antd", "@ant-design", "rc-util", "rc-pagination", "rc-picker"],
 };
 
 module.exports = nextConfig;
